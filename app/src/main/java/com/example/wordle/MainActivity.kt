@@ -96,6 +96,11 @@ class MainActivity : AppCompatActivity()
                     var anwer = findViewById<TextView>(R.id.answer)
                     anwer.visibility = View.VISIBLE
                 }
+                else
+                {
+                    var anwer = findViewById<TextView>(R.id.answer)
+                    anwer.visibility = View.VISIBLE
+                }
             }
         }
 
