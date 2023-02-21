@@ -95,11 +95,13 @@ class MainActivity : AppCompatActivity()
                 {
                     var anwer = findViewById<TextView>(R.id.answer)
                     anwer.visibility = View.VISIBLE
+                    guessButton.visibility = View.INVISIBLE
                 }
                 else
                 {
                     var anwer = findViewById<TextView>(R.id.answer)
                     anwer.visibility = View.VISIBLE
+                    guessButton.visibility = View.INVISIBLE
                 }
             }
         }
